@@ -1,0 +1,46 @@
+[
+  {
+    "id": "builtin-sd15-txt2img",
+    "file": "sd15-txt2img.json",
+    "title": "SD 1.5 · Text to Image",
+    "kind": "image",
+    "tasks": [
+      "text-to-image"
+    ],
+    "catalogId": "sd15",
+    "description": "Classic Stable Diffusion 1.5 text-to-image graph (512×512)."
+  },
+  {
+    "id": "builtin-sdxl-txt2img",
+    "file": "sdxl-txt2img.json",
+    "title": "SDXL 1.0 · Text to Image",
+    "kind": "image",
+    "tasks": [
+      "text-to-image"
+    ],
+    "catalogId": "sdxl-base",
+    "description": "Stable Diffusion XL base, 1024×1024 with a negative prompt."
+  },
+  {
+    "id": "builtin-flux1-dev-txt2img",
+    "file": "flux1-dev-txt2img.json",
+    "title": "FLUX.1 [dev] · Text to Image",
+    "kind": "image",
+    "tasks": [
+      "text-to-image"
+    ],
+    "catalogId": "flux1-dev",
+    "description": "FLUX.1 dev all-in-one checkpoint with FluxGuidance (guidance control)."
+  },
+  {
+    "id": "builtin-z-image-turbo-txt2img",
+    "file": "z-image-turbo-txt2img.json",
+    "title": "Z-Image Turbo · Text to Image",
+    "kind": "image",
+    "tasks": [
+      "text-to-image"
+    ],
+    "catalogId": "z-image-turbo",
+    "description": "Z-Image Turbo with Qwen3-4B text encoder, 8 steps, 1024×1024."
+  }
+]

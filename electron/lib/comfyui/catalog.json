@@ -1,0 +1,571 @@
+{
+  "generatedAt": "2026-10-12T11:00:16.988Z",
+  "source": "huggingface.co (tree API: size and LFS sha256)",
+  "entries": [
+    {
+      "id": "sd15",
+      "family": "Stable Diffusion 1.5",
+      "kind": "image",
+      "tasks": [
+        "text-to-image"
+      ],
+      "status": "installable",
+      "license": "creativeml-openrail-m",
+      "files": [
+        {
+          "repo": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+          "path": "v1-5-pruned-emaonly.safetensors",
+          "folder": "checkpoints",
+          "role": "checkpoint",
+          "filename": "v1-5-pruned-emaonly.safetensors",
+          "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors",
+          "sizeBytes": 4265146304,
+          "sha256": "6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "sdxl-base",
+      "family": "SDXL 1.0",
+      "kind": "image",
+      "tasks": [
+        "text-to-image",
+        "image-to-image"
+      ],
+      "status": "installable",
+      "license": "openrail++",
+      "files": [
+        {
+          "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+          "path": "sd_xl_base_1.0.safetensors",
+          "folder": "checkpoints",
+          "role": "checkpoint",
+          "filename": "sd_xl_base_1.0.safetensors",
+          "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors",
+          "sizeBytes": 6938078334,
+          "sha256": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "sd35-large",
+      "family": "Stable Diffusion 3.5 Large",
+      "kind": "image",
+      "tasks": [
+        "text-to-image"
+      ],
+      "status": "installable",
+      "license": "other (Stability Community License)",
+      "files": [
+        {
+          "repo": "Comfy-Org/stable-diffusion-3.5-fp8",
+          "path": "sd3.5_large_fp8_scaled.safetensors",
+          "folder": "checkpoints",
+          "role": "checkpoint",
+          "filename": "sd3.5_large_fp8_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors",
+          "sizeBytes": 14934922866,
+          "sha256": "5ad94d6f951556b1ab6b75930fd4effbafaf3130fe9df440e7f2d05a220dd1be"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "flux1-dev",
+      "family": "FLUX.1 [dev]",
+      "kind": "image",
+      "tasks": [
+        "text-to-image"
+      ],
+      "status": "installable",
+      "license": "other (FLUX.1 [dev] non-commercial)",
+      "files": [
+        {
+          "repo": "Comfy-Org/flux1-dev",
+          "path": "flux1-dev-fp8.safetensors",
+          "folder": "checkpoints",
+          "role": "checkpoint",
+          "filename": "flux1-dev-fp8.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors",
+          "sizeBytes": 17246524772,
+          "sha256": "8e91b68084b53a7fc44ed2a3756d821e355ac1a7b6fe29be760c1db532f3d88a"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "z-image-turbo",
+      "family": "Z-Image Turbo",
+      "kind": "image",
+      "tasks": [
+        "text-to-image"
+      ],
+      "status": "installable",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/z_image_turbo",
+          "path": "split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "z_image_turbo_bf16.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+          "sizeBytes": 12309866400,
+          "sha256": "2407613050b809ffdff18a4ac99af83ea6b95443ecebdf80e064a79c825574a6"
+        },
+        {
+          "repo": "Comfy-Org/z_image_turbo",
+          "path": "split_files/text_encoders/qwen_3_4b.safetensors",
+          "folder": "text_encoders",
+          "role": "text-encoder",
+          "filename": "qwen_3_4b.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
+          "sizeBytes": 8044982048,
+          "sha256": "6c671498573ac2f7a5501502ccce8d2b08ea6ca2f661c458e708f36b36edfc5a"
+        },
+        {
+          "repo": "Comfy-Org/z_image_turbo",
+          "path": "split_files/vae/ae.safetensors",
+          "folder": "vae",
+          "role": "vae",
+          "filename": "ae.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
+          "sizeBytes": 335304388,
+          "sha256": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "qwen-image",
+      "family": "Qwen-Image",
+      "kind": "image",
+      "tasks": [
+        "text-to-image"
+      ],
+      "status": "installable",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+          "path": "split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "qwen_image_fp8_e4m3fn.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+          "sizeBytes": 20430635136,
+          "sha256": "98763a127701eb6fb59096f7742cb3aa7d64ed510b9f4e882d8351f8176e3ce3"
+        },
+        {
+          "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+          "path": "split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "folder": "text_encoders",
+          "role": "text-encoder",
+          "filename": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "sizeBytes": 9384670680,
+          "sha256": "cb5636d852a0ea6a9075ab1bef496c0db7aef13c02350571e388aea959c5c0b4"
+        },
+        {
+          "repo": "Comfy-Org/Qwen-Image_ComfyUI",
+          "path": "split_files/vae/qwen_image_vae.safetensors",
+          "folder": "vae",
+          "role": "vae",
+          "filename": "qwen_image_vae.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors",
+          "sizeBytes": 253806246,
+          "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "qwen-image-edit",
+      "family": "Qwen-Image-Edit (2509)",
+      "kind": "image",
+      "tasks": [
+        "image-editing"
+      ],
+      "status": "needs-workflow",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+          "path": "split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "sizeBytes": 20430698424,
+          "sha256": "318568f61951ab9da21100c7b896e3c1da67f0d2efad6421545e022cfaa2b2b4"
+        }
+      ],
+      "companions": "Needs the Qwen-Image text encoder and VAE, and no verified edit workflow is bundled yet.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "flux2-dev",
+      "family": "FLUX.2 [dev]",
+      "kind": "image",
+      "tasks": [
+        "text-to-image",
+        "image-editing"
+      ],
+      "status": "installable",
+      "license": "other (FLUX.2 [dev] non-commercial)",
+      "files": [
+        {
+          "repo": "Comfy-Org/flux2-dev",
+          "path": "split_files/diffusion_models/flux2_dev_fp8mixed.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "flux2_dev_fp8mixed.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/diffusion_models/flux2_dev_fp8mixed.safetensors",
+          "sizeBytes": 35455599592,
+          "sha256": "863a82e4ff950a42a6b0e80bea824828f129eb1a8fbbdbd9e8cb29859127b486"
+        },
+        {
+          "repo": "Comfy-Org/flux2-dev",
+          "path": "split_files/text_encoders/mistral_3_small_flux2_fp8.safetensors",
+          "folder": "text_encoders",
+          "role": "text-encoder",
+          "filename": "mistral_3_small_flux2_fp8.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_fp8.safetensors",
+          "sizeBytes": 18034640095,
+          "sha256": "e3467b7d912a234fb929cdf215dc08efdb011810b44bc21081c4234cc75b370e"
+        },
+        {
+          "repo": "Comfy-Org/flux2-dev",
+          "path": "split_files/vae/flux2-vae.safetensors",
+          "folder": "vae",
+          "role": "vae",
+          "filename": "flux2-vae.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/vae/flux2-vae.safetensors",
+          "sizeBytes": 336213556,
+          "sha256": "d64f3a68e1cc4f9f4e29b6e0da38a0204fe9a49f2d4053f0ec1fa1ca02f9c4b5"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "chroma1-hd",
+      "family": "Chroma1-HD",
+      "kind": "image",
+      "tasks": [
+        "text-to-image"
+      ],
+      "status": "needs-workflow",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/Chroma1-HD_repackaged",
+          "path": "split_files/diffusion_models/Chroma1-HD-fp8mixed.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "Chroma1-HD-fp8mixed.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Chroma1-HD_repackaged/resolve/main/split_files/diffusion_models/Chroma1-HD-fp8mixed.safetensors",
+          "sizeBytes": 9193379316,
+          "sha256": "a2928ca6075f308f4d5e2182e2b96120fa8ad270ec6ea9b1b5c724c85c49a575"
+        }
+      ],
+      "companions": "UNET-only file. Chroma also needs the T5-XXL text encoder and a FLUX VAE.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "wan22-ti2v-5b",
+      "family": "Wan 2.2 TI2V 5B",
+      "kind": "video",
+      "tasks": [
+        "text-to-video",
+        "image-to-video"
+      ],
+      "status": "needs-workflow",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+          "path": "split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "wan2.2_ti2v_5B_fp16.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors",
+          "sizeBytes": 9999658848,
+          "sha256": "456f901338bd9eadbded3828b819109a9b68e8a525ca5cf8d0049a69fcfeca1e"
+        },
+        {
+          "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+          "path": "split_files/text_encoders/umt5_xxl_fp16.safetensors",
+          "folder": "text_encoders",
+          "role": "text-encoder",
+          "filename": "umt5_xxl_fp16.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors",
+          "sizeBytes": 11366399385,
+          "sha256": "7b8850f1961e1cf8a77cca4c964a358d303f490833c6c087d0cff4b2f99db2af"
+        }
+      ],
+      "companions": "Wan 2.2 workflows also need the Wan 2.2 VAE, which is not yet in this entry.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "wan22-t2v-14b",
+      "family": "Wan 2.2 T2V 14B",
+      "kind": "video",
+      "tasks": [
+        "text-to-video"
+      ],
+      "status": "needs-workflow",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+          "path": "split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model (high noise)",
+          "filename": "wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors",
+          "sizeBytes": 14293923632,
+          "sha256": "cad711ae211c8b23455ec68cd6a190a33a3d874234a77eb57266d73f8f0e6c9f"
+        },
+        {
+          "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+          "path": "split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model (low noise)",
+          "filename": "wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors",
+          "sizeBytes": 14293923632,
+          "sha256": "e71b96d7c82e638694c5e7fb98fac4bfb0e4ddc5fbbb4b1df40da8f0f1278a97"
+        },
+        {
+          "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+          "path": "split_files/text_encoders/umt5_xxl_fp16.safetensors",
+          "folder": "text_encoders",
+          "role": "text-encoder",
+          "filename": "umt5_xxl_fp16.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors",
+          "sizeBytes": 11366399385,
+          "sha256": "7b8850f1961e1cf8a77cca4c964a358d303f490833c6c087d0cff4b2f99db2af"
+        }
+      ],
+      "companions": "Wan 2.2 workflows also need the Wan 2.2 VAE, which is not yet in this entry.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "wan21-i2v-14b",
+      "family": "Wan 2.1 I2V 14B",
+      "kind": "video",
+      "tasks": [
+        "image-to-video"
+      ],
+      "status": "needs-workflow",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+          "path": "split_files/diffusion_models/wan2.1_i2v_480p_14B_fp8_e4m3fn.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "wan2.1_i2v_480p_14B_fp8_e4m3fn.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_fp8_e4m3fn.safetensors",
+          "sizeBytes": 16397245448,
+          "sha256": "0ca75338e7a47ca7cacddb7e626647e65829c497387f718ecb6ea0bae456944a"
+        },
+        {
+          "repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+          "path": "split_files/clip_vision/clip_vision_h.safetensors",
+          "folder": "clip_vision",
+          "role": "clip-vision",
+          "filename": "clip_vision_h.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+          "sizeBytes": 1264219396,
+          "sha256": "64a7ef761bfccbadbaa3da77366aac4185a6c58fa5de5f589b42a65bcc21f161"
+        }
+      ],
+      "companions": "Wan 2.1 workflows also need the Wan 2.1 VAE, which is not yet in this entry.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "hunyuanvideo15-t2v",
+      "family": "HunyuanVideo 1.5 T2V 480p",
+      "kind": "video",
+      "tasks": [
+        "text-to-video"
+      ],
+      "status": "needs-workflow",
+      "license": "other (Tencent Hunyuan Community License)",
+      "files": [
+        {
+          "repo": "Comfy-Org/HunyuanVideo_1.5_repackaged",
+          "path": "split_files/diffusion_models/hunyuanvideo1.5_480p_t2v_fp16.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "hunyuanvideo1.5_480p_t2v_fp16.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/diffusion_models/hunyuanvideo1.5_480p_t2v_fp16.safetensors",
+          "sizeBytes": 16653368128,
+          "sha256": "6889f79cf053812e22afa8095cec77c4ad913b43f112dd10a425845f44e3234b"
+        }
+      ],
+      "companions": "Needs the HunyuanVideo 1.5 text encoders and VAE, which are not yet in this entry.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "mochi1",
+      "family": "Mochi 1 (preview)",
+      "kind": "video",
+      "tasks": [
+        "text-to-video"
+      ],
+      "status": "installable",
+      "license": "apache-2.0",
+      "files": [
+        {
+          "repo": "Comfy-Org/mochi_preview_repackaged",
+          "path": "split_files/diffusion_models/mochi_preview_fp8_scaled.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "mochi_preview_fp8_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/diffusion_models/mochi_preview_fp8_scaled.safetensors",
+          "sizeBytes": 10028084160,
+          "sha256": "8a6475b5380c90461a40d5c08ad574a5ad5ac4e6047e5f5f3f294df363f50705"
+        },
+        {
+          "repo": "Comfy-Org/mochi_preview_repackaged",
+          "path": "split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors",
+          "folder": "text_encoders",
+          "role": "text-encoder",
+          "filename": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors",
+          "sizeBytes": 5157348688,
+          "sha256": "a498f0485dc9536735258018417c3fd7758dc3bccc0a645feaa472b34955557a"
+        },
+        {
+          "repo": "Comfy-Org/mochi_preview_repackaged",
+          "path": "split_files/vae/mochi_vae.safetensors",
+          "folder": "vae",
+          "role": "vae",
+          "filename": "mochi_vae.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/mochi_preview_repackaged/resolve/main/split_files/vae/mochi_vae.safetensors",
+          "sizeBytes": 919544702,
+          "sha256": "1be451cec94b911980406169286babc5269e7cf6a94bbbbdf45e8d3f2c961083"
+        }
+      ],
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "ltx2",
+      "family": "LTX-2",
+      "kind": "video",
+      "tasks": [
+        "text-to-video",
+        "image-to-video"
+      ],
+      "status": "needs-workflow",
+      "license": "other (LTX-2 community license)",
+      "files": [
+        {
+          "repo": "Comfy-Org/ltx-2",
+          "path": "split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors",
+          "folder": "text_encoders",
+          "role": "text-encoder",
+          "filename": "gemma_3_12B_it_fp8_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors",
+          "sizeBytes": 13205434827,
+          "sha256": "60216ce97c01c3a8753c2dfd0a89fc76e16fbe446d1a32ef8f1b528ac8bae466"
+        }
+      ],
+      "companions": "This file is only the Gemma text encoder. The LTX-2 checkpoint itself is not in this entry.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "ltx23",
+      "family": "LTX-2.3",
+      "kind": "video",
+      "tasks": [
+        "text-to-video",
+        "image-to-video"
+      ],
+      "status": "needs-workflow",
+      "license": "other (Lightricks)",
+      "files": [
+        {
+          "repo": "Lightricks/LTX-2.3",
+          "path": "ltx-2.3-22b-distilled.safetensors",
+          "folder": "checkpoints",
+          "role": "checkpoint",
+          "filename": "ltx-2.3-22b-distilled.safetensors",
+          "url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled.safetensors",
+          "sizeBytes": 46149345038,
+          "sha256": "14409a4d1337a8ded02fa87fb895b17a91ab2c6588f7cc3352e624ff18a689bf"
+        }
+      ],
+      "companions": "Weights are published, but no ComfyUI-native workflow has been verified in this catalog yet.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "ltx25",
+      "family": "LTX-2.5",
+      "kind": "video",
+      "tasks": [
+        "text-to-video",
+        "image-to-video"
+      ],
+      "status": "gated",
+      "license": "other (Lightricks)",
+      "files": [
+        {
+          "repo": "Lightricks/LTX-2.5",
+          "path": "diffusion_models/ltx-2.5-22b-distilled-transformer-bf16.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "ltx-2.5-22b-distilled-transformer-bf16.safetensors",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5/resolve/main/diffusion_models/ltx-2.5-22b-distilled-transformer-bf16.safetensors",
+          "sizeBytes": 42018190584,
+          "sha256": null
+        }
+      ],
+      "companions": "Hugging Face requires you to accept the license on the model page before downloading.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "minimax-h3",
+      "family": "MiniMax H3",
+      "kind": "video",
+      "tasks": [
+        "image-to-video",
+        "reference-to-video"
+      ],
+      "status": "needs-workflow",
+      "license": "other (MiniMax)",
+      "files": [
+        {
+          "repo": "Comfy-Org/MiniMax-H3",
+          "path": "diffusion_models/minimax_h3_fl2va_pruned_fp8_scaled.safetensors",
+          "folder": "diffusion_models",
+          "role": "diffusion-model",
+          "filename": "minimax_h3_fl2va_pruned_fp8_scaled.safetensors",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_fl2va_pruned_fp8_scaled.safetensors",
+          "sizeBytes": 20958205608,
+          "sha256": "12944c1f7791637e7de12208aef04da82bd26b95271b1b47d817364315ade993"
+        }
+      ],
+      "companions": "Weights are published by Comfy-Org. A verified ComfyUI workflow and its companion files are still needed.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    },
+    {
+      "id": "cogvideox-5b",
+      "family": "CogVideoX-5B",
+      "kind": "video",
+      "tasks": [
+        "text-to-video",
+        "image-to-video"
+      ],
+      "status": "custom-nodes",
+      "license": "other (CogVideoX)",
+      "files": [],
+      "companions": "Published as a diffusers folder layout, not a single ComfyUI file. It needs a custom node pack, so it is listed for discovery only.",
+      "verifiedAt": "2026-10-12T11:00:16.988Z"
+    }
+  ]
+}
